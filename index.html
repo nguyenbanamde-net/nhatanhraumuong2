@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Sinh học – Trồng cây rau muống</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: lightblue;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            vertical-align: top;
+        }
+
+        th {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .image-row {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 8px;
+        }
+
+        figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        figure img {
+            width: 200px;
+        }
+
+        figcaption {
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        p {
+            text-align: justify;
+            margin: 6px 0 0 0;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        /* In A4 */
+        @media print {
+            body {
+                margin: 2cm;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="title">Thí nghiệm 2. Trồng cây rau muống</div>
+
+    <table>
+        <tr>
+            <th>Đối tượng</th>
+            <th>Điều kiện</th>
+            <th>Kết quả</th>
+            <th>Giải thích</th>
+        </tr>
+
+        <!-- Có phân NPK -->
+        <tr>
+            <td rowspan="2" style="vertical-align: middle; text-align:center;">Rau muống</td>
+            <td style="vertical-align: middle; text-align:center;">Có phân NPK</td>
+            <td>
+                <div class="image-row">
+                    <figure>
+                        <img src="p1.jfif">
+                        <figcaption>Hình 1. Ngày 1</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="p5.jpg">
+                        <figcaption>Hình 2. Ngày 5</figcaption>
+                    </figure>
+                </div>
+
+                <p>
+                    Ở ngày 1, cây rau muống mới trồng nên còn thấp, thân mảnh, số lá ít và màu xanh nhạt;
+                    hệ rễ bắt đầu hình thành nhưng chưa phát triển rõ. Đến ngày 7, cây sinh trưởng mạnh mẽ,
+                    thân mập hơn và vươn dài nhanh. Nhiều chồi non xuất hiện ở nách lá, làm tăng mật độ thân
+                    và lá trong chậu. Lá mới mở rộng bản lá lớn, màu xanh lục đậm và bóng hơn.
+                </p>
+            </td>
+            <td style="vertical-align: middle; text-align:center;">
+                Do cây được bổ sung phân NPK chứa các nguyên tố khoáng thiết yếu: nitơ (N) giúp tăng sinh trưởng
+                thân – lá và tổng hợp diệp lục, photpho (P) kích thích phát triển rễ, kali (K) giúp cây cứng cáp
+                và điều hòa trao đổi chất. Nhờ đó, quá trình quang hợp và trao đổi chất diễn ra mạnh, giúp cây
+                rau muống phát triển nhanh và khỏe.
+            </td>
+        </tr>
+
+        <!-- Không có phân NPK -->
+        <tr>
+            <td style="vertical-align: middle; text-align:center;">Không có phân NPK</td>
+            <td>
+                <div class="image-row">
+                    <figure>
+                        <img src="k1.jfif">
+                        <figcaption>Hình 1. Ngày 1</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="k5.jpg">
+                        <figcaption>Hình 2. Ngày 5</figcaption>
+                    </figure>
+                </div>
+
+                <p>
+                    Ở ngày 1, cây rau muống vẫn sống và bắt đầu thích nghi với môi trường đất trồng,
+                    tuy nhiên sinh trưởng chậm, thân mảnh và số lá ít. Đến ngày 7, cây vẫn tiếp tục
+                    phát triển nhưng rất hạn chế. Thân cây mảnh, còi cọc, chiều cao tăng chậm; số chồi
+                    non xuất hiện ít. Lá non có kích thước nhỏ, màu xanh nhạt hoặc hơi vàng.
+                </p>
+            </td>
+            <td style="vertical-align: middle; text-align:center;">
+                Việc thiếu phân NPK làm cho quá trình quang hợp, sinh trưởng và phân hóa mô diễn ra kém
+                hiệu quả, dẫn đến kiểu hình cây kém phát triển. Đây là biểu hiện rõ rệt của thường biến
+                do điều kiện dinh dưỡng khác nhau.
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
